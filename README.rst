@@ -1,8 +1,7 @@
 me-learn-rust
 =============
 
-Learning Rust my way.
---------------------
+*Learning Rust my way.*
 
 EXAMPLES I WROTE:
 -----------------
