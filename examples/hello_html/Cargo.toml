@@ -1,0 +1,7 @@
+[package]
+name = "hello_html"
+version = "0.1.0"
+authors = ["James Campbell <james@jamescampbell.us>"]
+
+[dependencies]
+victoria-dom = "0.1.0"
