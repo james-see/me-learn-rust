@@ -1,4 +1,4 @@
-::me learn rust learn me
+``me learn rust learn me``
 =============
 *Learning Rust my way.*
 
