@@ -16,7 +16,7 @@ fn main() {
     println!("first link: {}", ahrefs);
     // get all links into a vector
     let elems: Vec<_> = dom.find("div#main > a").iter().map(|x| x.attr("href").unwrap().to_string()).collect();
-    println!("{:?}",elems);
+    println!("vector array of links printed: {:?}",elems);
     // loop through a vector and print
     for i in elems {
         println!("A link: {}",i);
