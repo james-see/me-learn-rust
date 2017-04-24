@@ -1,0 +1,1 @@
+/Users/jc/.projects/me-learn-rust/examples/hello_redis/target/debug/hello_redis: /Users/jc/.projects/me-learn-rust/examples/hello_redis/src/lib.rs /Users/jc/.projects/me-learn-rust/examples/hello_redis/src/main.rs

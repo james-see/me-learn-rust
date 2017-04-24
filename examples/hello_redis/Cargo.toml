@@ -4,3 +4,7 @@ version = "0.1.0"
 authors = ["James Campbell <james@jamescampbell.us>"]
 
 [dependencies]
+
+[dependencies.redis]
+git = "https://github.com/mitsuhiko/redis-rs.git"
+
