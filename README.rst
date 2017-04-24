@@ -12,3 +12,4 @@ EXAMPLES I WROTE:
 1. hello_url - basic use case for urlparse and urljoin functionality in Rust (similar to python urllib.parse)
 2. hello_html - basic use case to parse html (get text, get links, etc.)
 3. hello_redis - basic use of redis as an example (connect)
+4. hello_curl - basic use of tokio curl and curl in rust to collect a web page
