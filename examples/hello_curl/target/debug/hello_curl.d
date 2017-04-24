@@ -1,0 +1,1 @@
+/Users/jc/.projects/me-learn-rust/examples/hello_curl/target/debug/hello_curl: /Users/jc/.projects/me-learn-rust/examples/hello_curl/src/main.rs /Users/jc/.projects/me-learn-rust/examples/hello_curl/src/lib.rs

@@ -1,0 +1,13 @@
+[package]
+name = "hello_curl"
+version = "0.1.0"
+authors = ["James Campbell <james@jamescampbell.us>"]
+
+[dependencies]
+
+curl = "0.4.6"
+tokio-curl = "0.1.9"
+futures = "*"
+tokio = "0.0.0"
+tokio-core = "0.1.6"
+
