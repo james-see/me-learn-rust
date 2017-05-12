@@ -11,6 +11,7 @@ use tokio_core::reactor::Core;
 use tokio_curl::Session;
 
 fn main() {
+    println!("this code grabs the html from jamescampbell.us");
     // Create an event loop that we'll run on, as well as an HTTP `Session`
     // which we'll be routing all requests through.
     let mut lp = Core::new().unwrap();
@@ -19,7 +20,7 @@ fn main() {
     // Prepare the HTTP request to be sent.
     let mut req = Easy::new();
     req.get(true).unwrap();
-    req.url("https://www.rust-lang.org").unwrap();
+    req.url("https://jamescampbell.us").unwrap();
     req.write_function(|data| {
         io::stdout().write_all(data).unwrap();
         Ok(data.len())
