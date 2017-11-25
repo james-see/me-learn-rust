@@ -6,8 +6,8 @@ fn main() {
     let mut fahrenheit : f64 = rand::thread_rng().gen_range(1.0, 100.0);
     fahrenheit = fahrenheit.round();
     println!("Starting Fahrenheit temp to convert: {}", fahrenheit);
-    let mut celcius : f64 = (fahrenheit - 32.0);
-    celcius = (celcius / 1.8 as f64);
-    celcius = celcius.round();
-    println!("Fahrenheit {} in Celcius: {}", fahrenheit,celcius);
+    let mut celsius : f64 = (fahrenheit - 32.0);
+    celsius = (celsius / 1.8 as f64);
+    celsius = celsius.round();
+    println!("Fahrenheit {} in Celsius: {}", fahrenheit,celsius);
 }
